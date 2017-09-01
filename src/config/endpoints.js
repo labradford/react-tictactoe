@@ -1,0 +1,1 @@
+export const relayApi = 'GRAPHQL_ENDPOINT=https://api.graph.cool/relay/v1/cj72f7emp018p0179chydqn1l'
