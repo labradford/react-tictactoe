@@ -73,6 +73,10 @@ class TicTacToe extends Component {
             unit={unit}
             coordinates={coordinates}
             gameState={gameState}
+            win={win}
+            gameOver={gameOver}
+            yourTurn={yourTurn}
+            ownMark={ownMark}
             move={this.move}
           />
         </Stage>
