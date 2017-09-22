@@ -6,10 +6,6 @@ import {Header, Main} from '../styled/Template'
 
 injectTapEventPlugin()
 
-const style = {
-  margin: 12,
-}
-
 class Template extends Component {
 
   render() {

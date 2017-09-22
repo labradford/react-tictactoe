@@ -6,7 +6,13 @@ class TicTacToe extends Component {
 
   state = {
     rows: 3,
-
+    gameState: new Array(9).fill(false),
+    ownMark:'X',
+    otherMark: '0',
+    gameOver: false,
+    yourturn: true,
+    winner: false,
+    win: false
   }
 
   componentWillMount() {
